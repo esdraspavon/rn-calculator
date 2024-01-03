@@ -19,6 +19,7 @@ export const styles = StyleSheet.create({
     color: 'rgba(255,255,255,0.5)',
     fontSize: 30,
     textAlign: 'right',
+    marginBottom: 10,
   },
   row: {
     flexDirection: 'row',

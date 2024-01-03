@@ -6,13 +6,14 @@ interface Props {
   text: string;
   color?: string;
   rows?: 1 | 2 | 3 | 4;
+  onPress: (text: string) => void;
 }
 
-const Button = ({ text, color = '#2D2D2D', rows = 1 }: Props) => {
+const Button = ({ text, color = '#2D2D2D', rows = 1, onPress }: Props) => {
   const textColor = color === '#9B9B9B' ? 'black' : 'white';
 
   return (
-    <TouchableOpacity>
+    <TouchableOpacity onPress={() => onPress(text)}>
       <View
         style={{
           ...styles.button,
