@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
   background: {
@@ -20,10 +20,16 @@ export const styles = StyleSheet.create({
     fontSize: 30,
     textAlign: 'right',
   },
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginBottom: 18,
+    paddingHorizontal: 10,
+    gap: 10,
+  },
   button: {
     height: 80,
     width: 80,
-    backgroundColor: '#333333',
     borderRadius: 100,
     justifyContent: 'center',
   },
