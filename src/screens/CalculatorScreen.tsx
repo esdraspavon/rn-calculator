@@ -85,19 +85,19 @@ const CalculatorScreen = () => {
 
     switch (lastOperation.current) {
       case Operators.add:
-        setTotal(`${num1 + num2}`);
+        setNumber(`${num1 + num2}`);
         break;
       case Operators.substract:
-        setTotal(`${num1 - num2}`);
+        setNumber(`${num1 - num2}`);
         break;
       case Operators.multiply:
-        setTotal(`${num1 * num2}`);
+        setNumber(`${num1 * num2}`);
         break;
       case Operators.divide:
-        setTotal(`${num1 / num2}`);
+        setNumber(`${num1 / num2}`);
         break;
     }
-    setNumber('0');
+    setTotal('0');
   };
 
   return (

@@ -11,13 +11,13 @@ export const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   result: {
-    color: '#ffffff',
-    fontSize: 60,
+    color: 'rgba(255,255,255,0.5)',
+    fontSize: 30,
     textAlign: 'right',
   },
   active: {
-    color: 'rgba(255,255,255,0.5)',
-    fontSize: 30,
+    color: '#ffffff',
+    fontSize: 60,
     textAlign: 'right',
     marginBottom: 10,
   },
